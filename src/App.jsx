@@ -1,11 +1,10 @@
-function App() {
+import Main from "./Home/Main.jsx";
 
-
-  return (
-    <>
-      <h1> HELLO its me </h1>
-    </>
-  )
+function App(){
+    return(
+        <>
+            <Main/>
+        </>
+    )
 }
-
 export default App
