@@ -2,9 +2,14 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    background: white;
+    border-bottom: 5px solid white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add some depth with shadow */
+    transition: background 0.3s ease; /* Smooth transition for background change */
 }
 .logo{
     font-weight: bold;
+    font-family: "Microsoft Sans Serif", serif;
     font-size: 30px;
     margin: 0;
     padding: 10px;
