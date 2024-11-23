@@ -1,0 +1,87 @@
+.calculatorContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.formSection,
+.resultsSection {
+    width: 48%;
+}
+
+.formSection {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.calculateButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #0066ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.calculateButton:hover {
+    background-color: #004bcc;
+}
+
+.resultsSection {
+    text-align: left;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.monthlyPayment {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0066ff;
+}
+
+.resultsDetails p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.extraLinks button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #0066ff;
+    border-radius: 4px;
+    background-color: white;
+    color: #0066ff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.extraLinks button:hover {
+    background-color: #e6f0ff;
+}
